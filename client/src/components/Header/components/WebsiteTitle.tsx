@@ -1,4 +1,9 @@
+import WebsiteLogo from '../../../assets/images/logo.png'
+
 const WebsiteTitle = () => 
-    <h1 className="websiteTitle">World Of Anime</h1>
+    <img 
+        id="websiteLogo"
+        src={WebsiteLogo} 
+        alt="Website Logo"  />
 
 export default WebsiteTitle;

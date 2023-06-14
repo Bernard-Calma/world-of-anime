@@ -1,4 +1,5 @@
 import { WebsiteTitle } from "./components";
+import "./Styles.css"
 
 const Header = () => {
   return(
